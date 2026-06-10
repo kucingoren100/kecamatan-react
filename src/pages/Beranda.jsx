@@ -85,8 +85,8 @@ export default function Beranda() {
       <section className="hero">
         <div className="container">
           <div className="hero-content">
-            <div className="hero-badge"><i className="fas fa-star"></i> Website Resmi Kecamatan</div>
-            <h1>Kecamatan <em>Karang Tengah</em><br />Melayani Sepenuh Hati</h1>
+            <div className="hero-badge"><i className="fas fa-star"></i> Website Resmi Pelayanan Publik Kecamatan Karang Tengah</div>
+            <h1>Pelayanan Publik <br />Kecamatan <em>Karang Tengah</em><br />Melayani Sepenuh Hati</h1>
             <p>Pusat informasi layanan publik Kecamatan Karang Tengah, Kota Tangerang. Kami hadir untuk memberikan pelayanan terbaik kepada seluruh masyarakat.</p>
             <div className="hero-cta">
               <Link to="/pelayanan" className="btn btn-primary"><i className="fas fa-clipboard-list"></i> Lihat Layanan</Link>
