@@ -5,7 +5,7 @@
 // ============================================================
 
 define('SITE_NAME', 'Kecamatan Karang Tengah');
-define('SITE_TAGLINE', 'Melayaniii dengan Sepenuh Hati');
+define('SITE_TAGLINE', 'Melayani dengan Sepenuh Hati');
 define('SITE_KOTA', 'Kota Tangerang');
 define('SITE_PROVINSI', 'Banten');
 define('SITE_ALAMAT', 'Jl. Sunan Giri No.20, Pd. Pucung, Kec. Karang Tengah, Kota Tangerang, Banten 15159');
