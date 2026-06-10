@@ -6,7 +6,7 @@
 <section class="hero">
     <div class="container">
         <div class="hero-content">
-            <div class="hero-badge"><i class="fas fa-star"></i> Website Resmi Kecamatan</div>
+            <div class="hero-badge"><i class="fas fa-star"></i> Website Resmi Pelayanan Publik Kecamatan Karang Tengah</div>
             <h1>Pelayanan Publik <br>Kecamatan <em>Karang Tengah</em><br>Melayani Sepenuh Hati</h1>
             <p>Pusat informasi layanan publik Kecamatan Karang Tengah, Kota Tangerang. Kami hadir untuk memberikan pelayanan terbaik kepada seluruh masyarakat.</p>
             <div class="hero-cta">
