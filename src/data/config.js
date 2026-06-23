@@ -16,7 +16,7 @@ export const SITE = {
 
 export const NAV_ITEMS = [
   { path: '/',          label: 'Beranda'   },
-  { path: '/profil',    label: 'Profil'    },
+  // { path: '/profil',    label: 'Profil'    },
   { path: '/pelayanan', label: 'Pelayanan' },
   { path: '/faq',       label: 'FAQ'       },
   { path: '/skm',       label: 'SKM'       },

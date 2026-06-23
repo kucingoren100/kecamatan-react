@@ -74,7 +74,7 @@ export default function Profil() {
               </div>
 
               <h3>Wilayah Kelurahan</h3>
-              <p>Kecamatan Karang Tengah terdiri dari 6 (enam) kelurahan, yaitu:</p>
+              <p>Kecamatan Karang Tengah terdiri dari 7 (enam) kelurahan, yaitu:</p>
               <div className="service-grid" style={{ gridTemplateColumns: 'repeat(auto-fill,minmax(200px,1fr))', marginTop: 16 }}>
                 {KELURAHAN.map(k => (
                   <div className="service-card" style={{ padding: '18px 20px' }} key={k}>

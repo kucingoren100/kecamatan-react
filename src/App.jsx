@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import Layout from './components/Layout'
 import Beranda from './pages/Beranda'
-import Profil from './pages/Profil'
+// import Profil from './pages/Profil'
 import Pelayanan from './pages/Pelayanan'
 import FAQ from './pages/FAQ'
 import SKM from './pages/SKM'
@@ -21,7 +21,7 @@ export default function App() {
       <Layout>
         <Routes>
           <Route path="/"          element={<Beranda />} />
-          <Route path="/profil"    element={<Profil />} />
+          {/* <Route path="/profil"    element={<Profil />} /> */}
           <Route path="/pelayanan" element={<Pelayanan />} />
           <Route path="/faq"       element={<FAQ />} />
           <Route path="/skm"       element={<SKM />} />
