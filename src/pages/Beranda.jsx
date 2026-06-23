@@ -4,7 +4,7 @@ import SectionHeader from '../components/SectionHeader'
 
 // --- Data ---
 const STATS = [
-  { value: 6,   suffix: '+',  label: 'Kelurahan'       },
+  { value: 6,   suffix: '+',  label: 'Kelurahaaann'       },
   { value: 120, suffix: 'K+', label: 'Penduduk'        },
   { value: 12,  suffix: '',   label: 'Jenis Layanan'   },
   { value: 98,  suffix: '%',  label: 'Kepuasan Warga'  },
