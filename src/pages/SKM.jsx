@@ -78,13 +78,6 @@ export default function SKM() {
                 value={form.saran}
                 onChange={e => setField('saran', e.target.value)}
               />
-
-              <div className="form-submit">
-                <button type="submit" className="btn-submit">
-                  <i className="fas fa-paper-plane"></i> Kirim Penilaian
-                </button>
-                <span style={{ fontSize: '.78rem', color: 'var(--text-muted)' }}>Data dijaga kerahasiaannya</span>
-              </div>
             </form>
           )}
 
