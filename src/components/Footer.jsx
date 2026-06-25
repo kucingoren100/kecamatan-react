@@ -24,7 +24,7 @@ export default function Footer() {
               <p>Website resmi Kecamatan Karang Tengah sebagai pusat informasi layanan publik bagi masyarakat.</p>
               <div className="footer-social">
                 <a href="https://shorturl.at/th1iD" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
-                <a href="#" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
+                <a href="https://shorturl.at/OQ2VS" aria-label="TikTok"><i className="fab fa-tiktok"></i></a>
                 <a href="#" aria-label="YouTube"><i className="fab fa-youtube"></i></a>
               </div>
             </div>
