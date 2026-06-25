@@ -1,40 +1,12 @@
 import { useState } from 'react'
 import PageHero from '../components/PageHero'
 
-// const ASPEK = [
-//   { label: 'Persyaratan Pelayanan',  sub: 'Kemudahan memahami dan memenuhi persyaratan' },
-//   { label: 'Prosedur Pelayanan',     sub: 'Kejelasan dan kemudahan alur pelayanan' },
-//   { label: 'Waktu Pelayanan',        sub: 'Kecepatan dan ketepatan waktu penyelesaian' },
-//   { label: 'Kesesuaian Biaya',       sub: 'Kesesuaian biaya dengan peraturan (jika ada)' },
-//   { label: 'Hasil Pelayanan',        sub: 'Kualitas dan keakuratan hasil layanan' },
-//   { label: 'Kompetensi Petugas',     sub: 'Kemampuan dan pengetahuan petugas' },
-//   { label: 'Perilaku Petugas',       sub: 'Keramahan, kesopanan, dan profesionalisme' },
-//   { label: 'Sarana & Prasarana',     sub: 'Kebersihan dan kenyamanan fasilitas' },
-//   { label: 'Penanganan Pengaduan',   sub: 'Ketersediaan dan responsivitas penanganan aduan' },
-// ]
-
-const RATINGS = [
-  { value: 1, icon: 'fas fa-frown',      label: 'Tidak Baik'  },
-  { value: 2, icon: 'fas fa-meh',        label: 'Kurang Baik' },
-  { value: 3, icon: 'fas fa-smile',      label: 'Baik'        },
-  { value: 4, icon: 'fas fa-grin-stars', label: 'Sangat Baik' },
-]
-
-const today = new Date().toLocaleDateString('id-ID', { day: '2-digit', month: 'long', year: 'numeric' })
-
 export default function SKM() {
-  const [submitted, setSubmitted] = useState(false)
-  const [ratings, setRatings] = useState({})
-  const [form, setForm] = useState({ jenisKelamin: '', usia: '', layanan: '', saran: '' })
-
   const handleSubmit = (e) => {
     e.preventDefault()
     setSubmitted(true)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
-
-  const setRating = (idx, val) => setRatings(r => ({ ...r, [idx]: val }))
-  const setField  = (k, v)     => setForm(f => ({ ...f, [k]: v }))
 
   return (
     <>
@@ -52,28 +24,27 @@ export default function SKM() {
             <p>Survei Kepuasan Masyarakat (SKM) dilaksanakan sesuai Permenpan-RB No. 14 Tahun 2017 sebagai upaya pengukuran kualitas pelayanan publik secara berkala. Jawaban Anda bersifat <strong>anonim</strong> dan digunakan semata-mata untuk perbaikan layanan.</p>
           </div>
 
-          {submitted ? (
-            <div className="success-banner" style={{ display: 'flex', maxWidth: 740, margin: '0 auto' }}>
-              <i className="fas fa-check-circle"></i>
-              <div>
-                <strong>Terima kasih atas partisipasi Anda!</strong><br />
-                <span style={{ fontSize: '.83rem' }}>Masukan Anda sangat berarti bagi peningkatan kualitas layanan Kecamatan Karang Tengah.</span>
-              </div>
+          
+          <div className="success-banner" style={{ display: 'flex', maxWidth: 740, margin: '0 auto' }}>
+            <i className="fas fa-check-circle"></i>
+            <div>
+              <strong>Terima kasih atas partisipasi Anda!</strong><br />
+              <span style={{ fontSize: '.83rem' }}>Masukan Anda sangat berarti bagi peningkatan kualitas layanan Kecamatan Karang Tengah.</span>
             </div>
-          ) : (
-            <form id="skm-form" className="skm-form-wrap" onSubmit={handleSubmit} noValidate>
+          </div>
+          
+          <form id="skm-form" className="skm-form-wrap" onSubmit={handleSubmit} noValidate>
 
-              {/* Data Responden */}
-              <div style={{ marginBottom: 28, paddingBottom: 20, borderBottom: '1px solid var(--gray-100)' }}>
-                <h3 style={{ fontWeight: 700, color: 'var(--navy)', fontSize: '1rem', marginBottom: 4 }}>Data Responden</h3>
-                <p style={{ fontSize: '.82rem', color: 'var(--text-muted)' }}>Scan QR Code dibawah untuk mengisi data responden.</p>
-              </div>
+            {/* Data Responden */}
+            <div style={{ marginBottom: 28, paddingBottom: 20, borderBottom: '1px solid var(--gray-100)' }}>
+              <h3 style={{ fontWeight: 700, color: 'var(--navy)', fontSize: '1rem', marginBottom: 4 }}>Data Responden</h3>
+              <p style={{ fontSize: '.82rem', color: 'var(--text-muted)' }}>Scan QR Code dibawah untuk mengisi data responden.</p>
+            </div>
 
-              {/* Saran */}
-              <label className="form-label">QR Code SKM Kecamatan Karang Tengah</label>
-              <img src="/qr-code-skm.png" alt="QR Code SKM Kecamatan Karang Tengah"/>
-            </form>
-          )}
+            {/* Saran */}
+            <label className="form-label">QR Code SKM Kecamatan Karang Tengah</label>
+            <img src="/qr-code-skm.png" alt="QR Code SKM Kecamatan Karang Tengah"/>
+          </form>
 
           {/* Info cards */}
           <div style={{ maxWidth: 740, margin: '28px auto 0', display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 16 }}>
