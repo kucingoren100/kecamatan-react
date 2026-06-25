@@ -64,12 +64,12 @@ export default function SKM() {
             <form id="skm-form" className="skm-form-wrap" onSubmit={handleSubmit} noValidate>
 
               {/* Data Responden */}
-              {/* <div style={{ marginBottom: 28, paddingBottom: 20, borderBottom: '1px solid var(--gray-100)' }}>
+              <div style={{ marginBottom: 28, paddingBottom: 20, borderBottom: '1px solid var(--gray-100)' }}>
                 <h3 style={{ fontWeight: 700, color: 'var(--navy)', fontSize: '1rem', marginBottom: 4 }}>Data Responden</h3>
                 <p style={{ fontSize: '.82rem', color: 'var(--text-muted)' }}>Kolom bertanda <span style={{ color: '#EF4444' }}>*</span> wajib diisi.</p>
               </div>
 
-              <div className="form-group">
+              {/* <div className="form-group">
                 <label className="form-label">Tanggal Pengisian</label>
                 <input type="text" className="form-control" readOnly value={today} />
               </div>
