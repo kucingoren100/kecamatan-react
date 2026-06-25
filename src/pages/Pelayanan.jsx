@@ -13,13 +13,13 @@ const LAYANAN = [
   {
     icon: 'fas fa-id-card',
     nama: 'KTP Elektronik (e-KTP)',
-    syarat: ['Surat Pengantar dari RT/RW', 'Formulir F-1.01 (tersedia di kelurahan)', 'Kartu Keluarga asli dan fotokopi', 'Akta Kelahiran / Ijazah (jika ada)', 'Pas foto 3x4 (2 lembar) latar biru'],
+    syarat: ['Usia minimal 17 Tahun', 'KTP Orang Tua dan Kartu Keluarga asli dan fotokopi', 'Akta Kelahiran', 'Berpakaian Rapih'],
     waktu: '1–7 hari kerja',
   },
   {
     icon: 'fas fa-users',
     nama: 'Kartu Keluarga (KK)',
-    syarat: ['KK lama (asli dan fotokopi)', 'Surat Nikah / Akta Cerai (jika ada perubahan)', 'Surat Keterangan Lahir / Akta Kelahiran', 'Surat Keterangan Pindah (jika pindah domisili)', 'Surat Pengantar dari RT/RW dan Kelurahan'],
+    syarat: ['Formulir Permohonan', 'KK lama (jika pisah kk)', 'Buku Nikah / Akta Perkawinan (jika ada perubahan)', 'Surat Keterangan Lahir / Akta Kelahiran', 'Surat Keterangan Pindah (jika dari luar daerah)'],
     waktu: '3–7 hari kerja',
   },
   {
@@ -42,8 +42,8 @@ const LAYANAN = [
   },
   {
     icon: 'fas fa-book-open',
-    nama: 'Surat Pindah Domisili',
-    syarat: ['KTP asli dan fotokopi', 'KK asli dan fotokopi', 'Surat Pengantar dari RT/RW', 'Surat Keterangan dari Kelurahan asal', 'Mengisi formulir permohonan F-1.03'],
+    nama: 'Surat Pindah Datang',
+    syarat: ['KTP asli', 'Kartu Keluarga asli', 'Surat Keterangan Pindah WNI (SKPWNI) dari Dukcapil asal'],
     waktu: '3–5 hari kerja',
   },
   {
