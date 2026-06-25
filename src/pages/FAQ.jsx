@@ -18,7 +18,7 @@ const FAQ_DATA = [
     kategori: 'Jam & Lokasi Layanan',
     items: [
       { q: 'Kapan jadwal operasional kantor kecamatan?', a: 'Kantor Kecamatan Karang Tengah buka Senin–Jumat pukul 08.00–16.00 WIB. Istirahat pukul 12.00–13.00 WIB (Jumat: 11.30–13.00 WIB). Sabtu, Minggu, dan hari libur nasional kantor tutup.' },
-      { q: 'Di mana lokasi kantor Kecamatan Karang Tengah?', a: 'Kantor kami beralamat di Jl. KH. Hasyim Ashari No. 1, Karang Tengah, Kota Tangerang. Dapat dijangkau dengan kendaraan umum maupun pribadi. Tersedia parkir untuk pengunjung.' },
+      { q: 'Di mana lokasi kantor Kecamatan Karang Tengah?', a: `${SITE.alamat}. Dapat dijangkau dengan kendaraan umum maupun pribadi. Tersedia parkir untuk pengunjung.` },
       { q: 'Apakah ada layanan di luar jam kantor?', a: 'Saat ini belum tersedia layanan di luar jam operasional. Namun untuk kondisi darurat seperti kematian atau kelahiran yang memerlukan pengurusan mendesak, dapat menghubungi nomor kontak darurat kecamatan.' },
     ],
   },
