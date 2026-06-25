@@ -1,17 +1,17 @@
 import { useState } from 'react'
 import PageHero from '../components/PageHero'
 
-const ASPEK = [
-  { label: 'Persyaratan Pelayanan',  sub: 'Kemudahan memahami dan memenuhi persyaratan' },
-  { label: 'Prosedur Pelayanan',     sub: 'Kejelasan dan kemudahan alur pelayanan' },
-  { label: 'Waktu Pelayanan',        sub: 'Kecepatan dan ketepatan waktu penyelesaian' },
-  { label: 'Kesesuaian Biaya',       sub: 'Kesesuaian biaya dengan peraturan (jika ada)' },
-  { label: 'Hasil Pelayanan',        sub: 'Kualitas dan keakuratan hasil layanan' },
-  { label: 'Kompetensi Petugas',     sub: 'Kemampuan dan pengetahuan petugas' },
-  { label: 'Perilaku Petugas',       sub: 'Keramahan, kesopanan, dan profesionalisme' },
-  { label: 'Sarana & Prasarana',     sub: 'Kebersihan dan kenyamanan fasilitas' },
-  { label: 'Penanganan Pengaduan',   sub: 'Ketersediaan dan responsivitas penanganan aduan' },
-]
+// const ASPEK = [
+//   { label: 'Persyaratan Pelayanan',  sub: 'Kemudahan memahami dan memenuhi persyaratan' },
+//   { label: 'Prosedur Pelayanan',     sub: 'Kejelasan dan kemudahan alur pelayanan' },
+//   { label: 'Waktu Pelayanan',        sub: 'Kecepatan dan ketepatan waktu penyelesaian' },
+//   { label: 'Kesesuaian Biaya',       sub: 'Kesesuaian biaya dengan peraturan (jika ada)' },
+//   { label: 'Hasil Pelayanan',        sub: 'Kualitas dan keakuratan hasil layanan' },
+//   { label: 'Kompetensi Petugas',     sub: 'Kemampuan dan pengetahuan petugas' },
+//   { label: 'Perilaku Petugas',       sub: 'Keramahan, kesopanan, dan profesionalisme' },
+//   { label: 'Sarana & Prasarana',     sub: 'Kebersihan dan kenyamanan fasilitas' },
+//   { label: 'Penanganan Pengaduan',   sub: 'Ketersediaan dan responsivitas penanganan aduan' },
+// ]
 
 const RATINGS = [
   { value: 1, icon: 'fas fa-frown',      label: 'Tidak Baik'  },
@@ -47,7 +47,7 @@ export default function SKM() {
       <section className="section">
         <div className="container">
           <div className="skm-intro">
-            <span className="section-eyebrow">SKM 2025</span>
+            <span className="section-eyebrow">SKM 2026</span>
             <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', color: 'var(--navy)', marginBottom: 12 }}>Bantu Kami Berkembang</h2>
             <p>Survei Kepuasan Masyarakat (SKM) dilaksanakan sesuai Permenpan-RB No. 14 Tahun 2017 sebagai upaya pengukuran kualitas pelayanan publik secara berkala. Jawaban Anda bersifat <strong>anonim</strong> dan digunakan semata-mata untuk perbaikan layanan.</p>
           </div>
@@ -64,7 +64,7 @@ export default function SKM() {
             <form id="skm-form" className="skm-form-wrap" onSubmit={handleSubmit} noValidate>
 
               {/* Data Responden */}
-              <div style={{ marginBottom: 28, paddingBottom: 20, borderBottom: '1px solid var(--gray-100)' }}>
+              {/* <div style={{ marginBottom: 28, paddingBottom: 20, borderBottom: '1px solid var(--gray-100)' }}>
                 <h3 style={{ fontWeight: 700, color: 'var(--navy)', fontSize: '1rem', marginBottom: 4 }}>Data Responden</h3>
                 <p style={{ fontSize: '.82rem', color: 'var(--text-muted)' }}>Kolom bertanda <span style={{ color: '#EF4444' }}>*</span> wajib diisi.</p>
               </div>
@@ -94,9 +94,9 @@ export default function SKM() {
                     <option>Di atas 50 tahun</option>
                   </select>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="form-group">
+              {/* <div className="form-group">
                 <label className="form-label">Jenis Layanan yang Digunakan <span className="required">*</span></label>
                 <select className="form-control" required value={form.layanan} onChange={e => setField('layanan', e.target.value)}>
                   <option value="">Pilih layanan...</option>
@@ -110,10 +110,10 @@ export default function SKM() {
                   <option>Surat Pindah Domisili</option>
                   <option>Layanan lainnya</option>
                 </select>
-              </div>
+              </div> */}
 
               {/* Penilaian */}
-              <div style={{ margin: '28px 0 24px', paddingTop: 20, borderTop: '1px solid var(--gray-100)' }}>
+              {/* <div style={{ margin: '28px 0 24px', paddingTop: 20, borderTop: '1px solid var(--gray-100)' }}>
                 <h3 style={{ fontWeight: 700, color: 'var(--navy)', fontSize: '1rem', marginBottom: 4 }}>Penilaian Layanan</h3>
                 <p style={{ fontSize: '.82rem', color: 'var(--text-muted)' }}>Pilih salah satu nilai untuk setiap aspek penilaian.</p>
               </div>
@@ -143,7 +143,7 @@ export default function SKM() {
                     ))}
                   </div>
                 </div>
-              ))}
+              ))} */}
 
               {/* Saran */}
               <div className="form-group" style={{ marginTop: 28, paddingTop: 20, borderTop: '1px solid var(--gray-100)' }}>
