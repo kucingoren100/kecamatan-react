@@ -24,15 +24,6 @@ export default function SKM() {
             <p>Survei Kepuasan Masyarakat (SKM) dilaksanakan sesuai Permenpan-RB No. 14 Tahun 2017 sebagai upaya pengukuran kualitas pelayanan publik secara berkala. Jawaban Anda bersifat <strong>anonim</strong> dan digunakan semata-mata untuk perbaikan layanan.</p>
           </div>
 
-          
-          <div className="success-banner" style={{ display: 'flex', maxWidth: 740, margin: '0 auto' }}>
-            <i className="fas fa-check-circle"></i>
-            <div>
-              <strong>Terima kasih atas partisipasi Anda!</strong><br />
-              <span style={{ fontSize: '.83rem' }}>Masukan Anda sangat berarti bagi peningkatan kualitas layanan Kecamatan Karang Tengah.</span>
-            </div>
-          </div>
-          
           <form id="skm-form" className="skm-form-wrap" onSubmit={handleSubmit} noValidate>
 
             {/* Data Responden */}
