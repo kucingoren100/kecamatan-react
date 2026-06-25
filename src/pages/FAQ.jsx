@@ -9,7 +9,7 @@ const FAQ_DATA = [
     items: [
       { q: 'Berapa lama waktu pembuatan e-KTP?', a: 'Proses perekaman data dilakukan langsung di kecamatan pada hari yang sama. Pencetakan e-KTP memerlukan waktu sekitar 1–7 hari kerja tergantung antrean dan ketersediaan blangko. Pemohon akan dihubungi ketika dokumen siap diambil.' },
       { q: 'Apakah ada biaya untuk membuat Kartu Keluarga baru?', a: 'Tidak ada biaya. Seluruh layanan administrasi kependudukan di Kecamatan Karang Tengah tidak dipungut biaya (gratis). Jika ada oknum yang meminta biaya, segera laporkan kepada pimpinan.' },
-      { q: 'Bagaimana jika KTP saya hilang atau rusak?', a: 'Untuk KTP hilang, bawa Surat Keterangan Kehilangan dari Kepolisian, KK asli dan fotokopi, serta surat pengantar dari RT/RW. Untuk KTP rusak, bawa KTP lama yang rusak, KK, dan surat pengantar RT/RW. Proses penggantian tidak dipungut biaya.' },
+      { q: 'Bagaimana jika KTP saya hilang atau rusak?', a: 'Untuk KTP hilang, bawa Surat Keterangan Kehilangan dari Kepolisian, KK asli dan fotokopi. Untuk KTP rusak, bawa KTP lama yang rusak, KK. Proses penggantian tidak dipungut biaya.' },
       { q: 'Apakah bisa mengurus dokumen diwakilkan orang lain?', a: 'Untuk beberapa jenis layanan tertentu, pengurusan dapat diwakilkan dengan membawa surat kuasa bermaterai, fotokopi KTP pemberi kuasa, dan KTP penerima kuasa. Namun untuk perekaman e-KTP dan beberapa dokumen vital, harus dilakukan sendiri.' },
       { q: 'Berapa lama akta kelahiran bisa selesai?', a: 'Akta kelahiran biasanya selesai dalam 3–5 hari kerja setelah berkas dinyatakan lengkap. Untuk kelahiran yang dilaporkan lebih dari 60 hari, diperlukan prosedur tambahan sesuai peraturan yang berlaku.' },
     ],
