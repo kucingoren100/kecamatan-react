@@ -13,13 +13,13 @@ const LAYANAN = [
   {
     icon: 'fas fa-id-card',
     nama: 'KTP Elektronik (e-KTP)',
-    syarat: ['Usia minimal 17 Tahun', 'KTP Orang Tua dan Kartu Keluarga asli dan fotokopi', 'Akta Kelahiran', 'Berpakaian Rapih'],
+    syarat: ['Usia Minimal 17 Tahun', 'KTP Orang Tua dan Kartu Keluarga Asli', 'Akta Kelahiran', 'Berpakaian Rapih'],
     waktu: '1–7 hari kerja',
   },
   {
     icon: 'fas fa-users',
     nama: 'Kartu Keluarga (KK)',
-    syarat: ['Formulir Permohonan', 'KK lama (jika pisah kk)', 'Buku Nikah / Akta Perkawinan (jika ada perubahan)', 'Surat Keterangan Lahir / Akta Kelahiran', 'Surat Keterangan Pindah (jika dari luar daerah)'],
+    syarat: ['Formulir Permohonan', 'Kartu Keluarga Lama (jika pisah kk)', 'Buku Nikah / Akta Perkawinan (jika ada perubahan)', 'Surat Keterangan Lahir / Akta Kelahiran', 'Surat Keterangan Pindah (jika dari luar daerah)'],
     waktu: '3–7 hari kerja',
   },
   {
@@ -43,7 +43,7 @@ const LAYANAN = [
   {
     icon: 'fas fa-book-open',
     nama: 'Surat Pindah Datang',
-    syarat: ['KTP asli', 'Kartu Keluarga asli', 'Surat Keterangan Pindah WNI (SKPWNI) dari Dukcapil asal'],
+    syarat: ['KTP Asli', 'Kartu Keluarga Asli', 'Surat Keterangan Pindah WNI (SKPWNI) dari Dukcapil asal'],
     waktu: '3–5 hari kerja',
   },
   {
@@ -124,7 +124,7 @@ export default function Pelayanan() {
 
           <div className="alert alert-info" style={{ maxWidth: 700, margin: '32px auto 0', display: 'flex', gap: 10, alignItems: 'flex-start' }}>
             <i className="fas fa-info-circle" style={{ marginTop: 2, flexShrink: 0 }}></i>
-            <span>Seluruh layanan <strong>tidak dipungut biaya (GRATIS)</strong>. Jika ditemukan pungutan liar, segera laporkan ke Kepala Bagian Pelayanan atau hubungi kami di <strong>(021) 5522-1234</strong>.</span>
+            <span>Seluruh layanan <strong>tidak dipungut biaya (GRATIS)</strong>. Jika ditemukan pungutan liar, segera laporkan ke Kepala Bagian Pelayanan atau hubungi kami di <strong>0882-1288-8570</strong>.</span>
           </div>
         </div>
       </section>
