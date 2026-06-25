@@ -71,7 +71,7 @@ export default function SKM() {
 
               {/* Saran */}
               <label className="form-label">Saran dan Masukan</label>
-              <img src="../assets/images/qr-code-skm.png" alt="qr-code-skm"/>
+              <img src="/qr-code-skm.png" alt="QR Code SKM Kecamatan Karang Tengah"/>
             </form>
           )}
 
