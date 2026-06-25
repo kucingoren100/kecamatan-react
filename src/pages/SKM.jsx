@@ -42,7 +42,7 @@ export default function SKM() {
             {[
               { icon: 'fas fa-shield-alt', title: 'Data Aman',         desc: 'Identitas Anda tidak akan dipublikasikan' },
               { icon: 'fas fa-chart-bar',  title: 'Digunakan untuk Evaluasi', desc: 'Hasil digunakan untuk perbaikan layanan' },
-              // { icon: 'fas fa-file-alt',   title: 'Laporan Berkala',   desc: 'Hasil SKM dipublikasikan setiap semester' },
+              { icon: 'fas fa-file-alt',   title: 'Laporan Berkala',   desc: 'Hasil SKM dipublikasikan setiap semester' },
             ].map(c => (
               <div key={c.title} style={{ background: 'var(--gray-50)', borderRadius: 'var(--radius)', padding: 20, textAlign: 'center' }}>
                 <i className={c.icon} style={{ color: 'var(--blue)', fontSize: '1.5rem', marginBottom: 10, display: 'block' }}></i>
