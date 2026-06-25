@@ -25,7 +25,7 @@ export default function Footer() {
               <div className="footer-social">
                 <a href="https://shorturl.at/th1iD" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
                 <a href="https://shorturl.at/OQ2VS" aria-label="TikTok"><i className="fab fa-tiktok"></i></a>
-                <a href="#" aria-label="YouTube"><i className="fab fa-youtube"></i></a>
+                <a href="https://shorturl.at/s6f5Q" aria-label="YouTube"><i className="fab fa-youtube"></i></a>
               </div>
             </div>
 
