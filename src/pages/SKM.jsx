@@ -71,6 +71,7 @@ export default function SKM() {
 
               {/* Saran */}
               <label className="form-label">Saran dan Masukan</label>
+              <img src="../assets/images/qr-code-skm.png" alt="qr-code"/>
               <textarea
                 className="form-control"
                 placeholder="Tuliskan saran, masukan, atau harapan Anda untuk peningkatan pelayanan..."
