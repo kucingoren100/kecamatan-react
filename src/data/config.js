@@ -8,9 +8,9 @@ export const SITE = {
   tagline:    'Melayani dengan Sepenuh Hati',
   kota:       'Kota Tangerang',
   provinsi:   'Banten',
-  alamat:     'Jl. KH. Hasyim Ashari No. 1, Karang Tengah, Kota Tangerang',
-  telepon:    '(021) 5522-1234',
-  email:      'karangtengah@tangerangkota.go.id',
+  alamat:     'Jl. Sunan Giri No.20, Pd. Pucung, Kec. Karang Tengah, Kota Tangerang, Banten',
+  telepon:    '0882-1288-8570',
+  email:      'kec.karangtengah@tangerangkota.go.id',
   jamOps:     'Senin – Jumat: 08.00 – 16.00 WIB',
 }
 
