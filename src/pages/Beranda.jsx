@@ -21,12 +21,12 @@ const LAYANAN = [
   { icon: 'fas fa-hand-holding-heart',title: 'Bantuan Sosial',     desc: 'Informasi dan pengurusan berkas bantuan sosial DTKS, PKH, dan program sosial lainnya.' },
 ]
 
-const BERITA = [
-  { tgl: '15', bln: 'Jun', title: 'Pelayanan e-KTP Akan Dibuka Sabtu, 21 Juni 2025', meta: 'Pelayanan publik · Kecamatan' },
-  { tgl: '10', bln: 'Jun', title: 'Pengumuman Jadwal Vaksinasi Warga Kelurahan Parung Jaya', meta: 'Kesehatan · Puskesmas' },
-  { tgl: '05', bln: 'Jun', title: 'Musyawarah Perencanaan Pembangunan Kelurahan 2025', meta: 'Perencanaan · BAPPEDA' },
-  { tgl: '28', bln: 'Mei', title: 'Kegiatan Bersih-Bersih Lingkungan Karang Tengah', meta: 'Lingkungan · Kecamatan' },
-]
+// const BERITA = [
+//   { tgl: '15', bln: 'Jun', title: 'Pelayanan e-KTP Akan Dibuka Sabtu, 21 Juni 2025', meta: 'Pelayanan publik · Kecamatan' },
+//   { tgl: '10', bln: 'Jun', title: 'Pengumuman Jadwal Vaksinasi Warga Kelurahan Parung Jaya', meta: 'Kesehatan · Puskesmas' },
+//   { tgl: '05', bln: 'Jun', title: 'Musyawarah Perencanaan Pembangunan Kelurahan 2025', meta: 'Perencanaan · BAPPEDA' },
+//   { tgl: '28', bln: 'Mei', title: 'Kegiatan Bersih-Bersih Lingkungan Karang Tengah', meta: 'Lingkungan · Kecamatan' },
+// ]
 
 const JADWAL = [
   { hari: 'Senin',  jam: '08.00 – 16.00 WIB', open: true  },
@@ -130,7 +130,7 @@ export default function Beranda() {
       <section className="section section-alt">
         <div className="container">
           <div className="info-grid">
-            <div className="info-card">
+            {/* <div className="info-card">
               <h3><i className="fas fa-bullhorn"></i> Pengumuman Terbaru</h3>
               {BERITA.map((b, i) => (
                 <div className="news-item" key={i}>
@@ -141,7 +141,7 @@ export default function Beranda() {
                   </div>
                 </div>
               ))}
-            </div>
+            </div> */}
 
             <div className="info-card">
               <h3><i className="fas fa-clock"></i> Jadwal Layanan</h3>
