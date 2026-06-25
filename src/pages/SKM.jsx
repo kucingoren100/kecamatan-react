@@ -66,96 +66,18 @@ export default function SKM() {
               {/* Data Responden */}
               <div style={{ marginBottom: 28, paddingBottom: 20, borderBottom: '1px solid var(--gray-100)' }}>
                 <h3 style={{ fontWeight: 700, color: 'var(--navy)', fontSize: '1rem', marginBottom: 4 }}>Data Responden</h3>
-                <p style={{ fontSize: '.82rem', color: 'var(--text-muted)' }}>Kolom bertanda <span style={{ color: '#EF4444' }}>*</span> wajib diisi.</p>
+                <p style={{ fontSize: '.82rem', color: 'var(--text-muted)' }}>Scan QR Code dibawah untuk mengisi data responden.</p>
               </div>
-
-              {/* <div className="form-group">
-                <label className="form-label">Tanggal Pengisian</label>
-                <input type="text" className="form-control" readOnly value={today} />
-              </div>
-
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }}>
-                <div className="form-group">
-                  <label className="form-label">Jenis Kelamin <span className="required">*</span></label>
-                  <select className="form-control" required value={form.jenisKelamin} onChange={e => setField('jenisKelamin', e.target.value)}>
-                    <option value="">Pilih...</option>
-                    <option>Laki-laki</option>
-                    <option>Perempuan</option>
-                  </select>
-                </div>
-                <div className="form-group">
-                  <label className="form-label">Usia <span className="required">*</span></label>
-                  <select className="form-control" required value={form.usia} onChange={e => setField('usia', e.target.value)}>
-                    <option value="">Pilih...</option>
-                    <option>Di bawah 20 tahun</option>
-                    <option>20–30 tahun</option>
-                    <option>31–40 tahun</option>
-                    <option>41–50 tahun</option>
-                    <option>Di atas 50 tahun</option>
-                  </select>
-                </div>
-              </div> */}
-
-              {/* <div className="form-group">
-                <label className="form-label">Jenis Layanan yang Digunakan <span className="required">*</span></label>
-                <select className="form-control" required value={form.layanan} onChange={e => setField('layanan', e.target.value)}>
-                  <option value="">Pilih layanan...</option>
-                  <option>KTP Elektronik</option>
-                  <option>Kartu Keluarga</option>
-                  <option>Akta Kelahiran</option>
-                  <option>Akta Pernikahan</option>
-                  <option>Surat Keterangan Domisili</option>
-                  <option>Surat Keterangan Tidak Mampu</option>
-                  <option>Surat Keterangan Usaha</option>
-                  <option>Surat Pindah Domisili</option>
-                  <option>Layanan lainnya</option>
-                </select>
-              </div> */}
-
-              {/* Penilaian */}
-              {/* <div style={{ margin: '28px 0 24px', paddingTop: 20, borderTop: '1px solid var(--gray-100)' }}>
-                <h3 style={{ fontWeight: 700, color: 'var(--navy)', fontSize: '1rem', marginBottom: 4 }}>Penilaian Layanan</h3>
-                <p style={{ fontSize: '.82rem', color: 'var(--text-muted)' }}>Pilih salah satu nilai untuk setiap aspek penilaian.</p>
-              </div>
-
-              {ASPEK.map((aspek, idx) => (
-                <div className="form-group" key={idx}>
-                  <label className="form-label">
-                    {idx + 1}. {aspek.label}{' '}
-                    <span style={{ fontWeight: 400, color: 'var(--text-muted)', fontSize: '.8rem' }}>— {aspek.sub}</span>
-                  </label>
-                  <div className="rating-group">
-                    {RATINGS.map(r => (
-                      <div className={`rating-opt rating-${r.value}`} key={r.value}>
-                        <input
-                          type="radio"
-                          name={`aspek_${idx}`}
-                          id={`a${idx}r${r.value}`}
-                          value={r.value}
-                          checked={ratings[idx] === r.value}
-                          onChange={() => setRating(idx, r.value)}
-                        />
-                        <label htmlFor={`a${idx}r${r.value}`}>
-                          <i className={r.icon}></i>
-                          {r.label}
-                        </label>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))} */}
 
               {/* Saran */}
-              <div className="form-group" style={{ marginTop: 28, paddingTop: 20, borderTop: '1px solid var(--gray-100)' }}>
-                <label className="form-label">Saran dan Masukan</label>
-                <textarea
-                  className="form-control"
-                  placeholder="Tuliskan saran, masukan, atau harapan Anda untuk peningkatan pelayanan..."
-                  rows={4}
-                  value={form.saran}
-                  onChange={e => setField('saran', e.target.value)}
-                />
-              </div>
+              <label className="form-label">Saran dan Masukan</label>
+              <textarea
+                className="form-control"
+                placeholder="Tuliskan saran, masukan, atau harapan Anda untuk peningkatan pelayanan..."
+                rows={4}
+                value={form.saran}
+                onChange={e => setField('saran', e.target.value)}
+              />
 
               <div className="form-submit">
                 <button type="submit" className="btn-submit">
