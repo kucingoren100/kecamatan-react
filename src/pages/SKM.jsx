@@ -70,7 +70,7 @@ export default function SKM() {
               </div>
 
               {/* Saran */}
-              <label className="form-label">Saran dan Masukan</label>
+              <label className="form-label">QR Code SKM Kecamatan Karang Tengah</label>
               <img src="/qr-code-skm.png" alt="QR Code SKM Kecamatan Karang Tengah"/>
             </form>
           )}
